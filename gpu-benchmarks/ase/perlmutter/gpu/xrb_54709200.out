@@ -1,0 +1,28 @@
+
+Lmod is automatically replacing "gcc/12.2.0" with "gcc-native/14".
+
+
+Activating Modules:
+  1) cray-libsci/25.09.0     2) cray-mpich/9.0.1
+
+Initializing AMReX (26.05-62-gff884e3b1e31)...
+Initializing CUDA...
+CUDA initialized with 1 device.
+AMReX (26.05-62-gff884e3b1e31) initialized
+reading extern runtime parameters ...
+Run time = 7.537892768
+min number of rhs calls: 73
+avg number of rhs calls: 748
+max number of rhs calls: 6841
+min number of steps: 51
+avg number of steps: 481
+max number of steps: 6336
+Total GPU global memory (MB): 40440
+Free  GPU global memory (MB): 7212
+[The         Arena] max space allocated (MB): 30330
+[The         Arena] max space used      (MB): 74
+[The Managed Arena] max space allocated (MB): 8
+[The Managed Arena] max space used      (MB): 0
+[The  Pinned Arena] max space allocated (MB): 22
+[The  Pinned Arena] max space used      (MB): 14
+AMReX (26.05-62-gff884e3b1e31) finalized

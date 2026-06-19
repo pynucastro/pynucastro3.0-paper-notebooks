@@ -1,0 +1,31 @@
+
+Lmod is automatically replacing "cce/18.0.1" with "gcc-native/13.2".
+
+
+Lmod is automatically replacing "PrgEnv-cray/8.6.0" with "PrgEnv-gnu/8.6.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-libsci/24.11.0     2) cray-mpich/8.1.31
+
+Initializing AMReX (26.06-13-g87eac2327e9f)...
+Initializing HIP...
+HIP initialized with 1 device.
+AMReX (26.06-13-g87eac2327e9f) initialized
+reading extern runtime parameters ...
+Run time = 58.35079167
+min number of rhs calls: 73
+avg number of rhs calls: 748
+max number of rhs calls: 8019
+min number of steps: 51
+avg number of steps: 481
+max number of steps: 7491
+Total GPU global memory (MB): 65520
+Free  GPU global memory (MB): 15999
+[The         Arena] max space allocated (MB): 49140
+[The         Arena] max space used      (MB): 170
+[The Managed Arena] max space allocated (MB): 8
+[The Managed Arena] max space used      (MB): 0
+[The  Pinned Arena] max space allocated (MB): 22
+[The  Pinned Arena] max space used      (MB): 14
+AMReX (26.06-13-g87eac2327e9f) finalized
