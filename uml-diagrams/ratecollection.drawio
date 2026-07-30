@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="n2SsfozQpEnjujWUVQV4">
-    <mxGraphModel dx="1999" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="450" math="0" shadow="0">
+    <mxGraphModel dx="2296" dy="1298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="450" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -95,7 +95,7 @@
           <mxGeometry height="8" width="200" y="26" as="geometry" />
         </mxCell>
         <mxCell id="ZGchEUf17HjSi6A1a6Mz-150" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;strokeColor=#d79b00;strokeWidth=2;swimlaneFillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#ffe6cc;whiteSpace=wrap;html=1;" value="NetworkSolution" vertex="1">
-          <mxGeometry height="120" width="200" x="-241" y="-427" as="geometry" />
+          <mxGeometry height="130" width="200" x="-241" y="-437" as="geometry" />
         </mxCell>
         <mxCell id="ZGchEUf17HjSi6A1a6Mz-151" parent="ZGchEUf17HjSi6A1a6Mz-150" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;horizontal=1;" value="&lt;div&gt;- _sol: object&lt;/div&gt;&lt;div&gt;+ network: PythonNetwork&lt;/div&gt;" vertex="1">
           <mxGeometry height="34" width="200" y="26" as="geometry" />
@@ -104,7 +104,7 @@
           <mxGeometry height="8" width="200" y="60" as="geometry" />
         </mxCell>
         <mxCell id="ZGchEUf17HjSi6A1a6Mz-153" parent="ZGchEUf17HjSi6A1a6Mz-150" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;horizontal=1;" value="&lt;div&gt;+ X_at(): numpy.ndarray&lt;/div&gt;&lt;div&gt;+ plot_evolution()&lt;/div&gt;&lt;div&gt;+ plot_temperature()&lt;/div&gt;" vertex="1">
-          <mxGeometry height="52" width="200" y="68" as="geometry" />
+          <mxGeometry height="62" width="200" y="68" as="geometry" />
         </mxCell>
         <mxCell id="ZGchEUf17HjSi6A1a6Mz-154" edge="1" parent="1" source="ZGchEUf17HjSi6A1a6Mz-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.504;entryY=0.987;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;horizontal=1;endArrow=diamondThin;endFill=0;endSize=20;strokeWidth=1.5;" target="ZGchEUf17HjSi6A1a6Mz-153">
           <mxGeometry relative="1" as="geometry" />

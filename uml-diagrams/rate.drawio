@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="n2SsfozQpEnjujWUVQV4">
-    <mxGraphModel dx="1998" dy="1365" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="400" math="0" shadow="0">
+    <mxGraphModel dx="2296" dy="1648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="400" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,14 +30,14 @@
             <mxPoint x="-451" y="-539" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZGchEUf17HjSi6A1a6Mz-56" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;strokeColor=#d79b00;strokeWidth=2;swimlaneFillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#ffe6cc;whiteSpace=wrap;html=1;" value="TabularRate" vertex="1">
-          <mxGeometry height="68" width="230" x="-566" y="-484" as="geometry" />
+        <mxCell id="ZGchEUf17HjSi6A1a6Mz-56" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;strokeColor=#d79b00;strokeWidth=2;swimlaneFillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#ffe6cc;whiteSpace=wrap;html=1;" value="TabularWeakRate" vertex="1">
+          <mxGeometry height="78" width="230" x="-566" y="-494" as="geometry" />
         </mxCell>
         <mxCell id="ZGchEUf17HjSi6A1a6Mz-57" parent="ZGchEUf17HjSi6A1a6Mz-56" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;horizontal=1;" value="&lt;div&gt;+ tabular_data_table: numpy.ndarray&lt;/div&gt;+ interpolator: TableInterpolator" vertex="1">
-          <mxGeometry height="34" width="230" y="26" as="geometry" />
+          <mxGeometry height="44" width="230" y="26" as="geometry" />
         </mxCell>
         <mxCell id="ZGchEUf17HjSi6A1a6Mz-58" parent="ZGchEUf17HjSi6A1a6Mz-56" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;rounded=0;swimlaneFillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;horizontal=1;" value="" vertex="1">
-          <mxGeometry height="8" width="230" y="60" as="geometry" />
+          <mxGeometry height="8" width="230" y="70" as="geometry" />
         </mxCell>
         <mxCell id="ZGchEUf17HjSi6A1a6Mz-60" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;strokeColor=#d79b00;strokeWidth=2;swimlaneFillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#ffe6cc;" value="ModifiedRate" vertex="1">
           <mxGeometry height="58" width="160" x="-771" y="-539" as="geometry" />
