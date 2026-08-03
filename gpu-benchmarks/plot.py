@@ -2,6 +2,26 @@ import numpy as np
 import matplotlib.pyplot as plt
 from pathlib import Path
 
+# Some fontsize settings for plotting
+SMALL_SIZE = 16
+MEDIUM_SIZE = 20
+BIGGER_SIZE = 22
+MAJOR_TICK_SIZE = 5
+MINOR_TICK_SIZE = 3
+
+plt.rc('font', size=SMALL_SIZE)          # controls default text sizes
+plt.rc('axes', titlesize=SMALL_SIZE)     # fontsize of the axes title
+plt.rc('axes', labelsize=MEDIUM_SIZE)    # fontsize of the x and y labels
+plt.rc('xtick', labelsize=SMALL_SIZE)    # fontsize of the tick labels
+plt.rc('ytick', labelsize=SMALL_SIZE)    # fontsize of the tick labels
+plt.rc('legend', fontsize=SMALL_SIZE)    # legend fontsize
+plt.rc('figure', titlesize=BIGGER_SIZE)  # fontsize of the figure title
+plt.rc('xtick.major', size=MAJOR_TICK_SIZE, width=1.5)
+plt.rc('xtick.minor', size=MINOR_TICK_SIZE, width=1)
+plt.rc('ytick.major', size=MAJOR_TICK_SIZE, width=1.5)
+plt.rc('ytick.minor', size=MINOR_TICK_SIZE, width=1)
+plt.rcParams.update({'lines.linewidth': 2.5})
+
 # we'll create a dict keyed by the name of the run that stores the
 # directory where the data is and average run time.
 
@@ -35,7 +55,7 @@ for r in runs:
 
 # now plot as a bar chart
 
-fig, ax = plt.subplots()
+fig, ax = plt.subplots(figsize=(8,6))
 
 # we'll group by problem size
 data = {}
@@ -51,12 +71,16 @@ for chip in chips:
 res = ax.grouped_bar(data, tick_labels=sizes, group_spacing=1)
 
 for container in res.bar_containers:
-    ax.bar_label(container, padding=3)
+    ax.bar_label(container, fmt="{:.1f}", padding=3)
 
 ax.set_xlabel("box size")
 ax.set_ylabel("wallclock time (s)")
 
-ax.legend()
+ax.legend(loc="upper left", frameon=False)
+
+ax.tick_params(top=True, bottom=True,
+               left=True, right=True,
+               direction="in", which="both")
 
 ax.grid(ls=":", axis="y")
 ax.set_ylim(0, 140)
